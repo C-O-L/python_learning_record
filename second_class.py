@@ -7,6 +7,7 @@
 # lose_owned = second_class_one.pop(1);
 # second_class_one.remove('繁星·春水');
 # del second_class_one[0];
+# second_class_one.sort();
 # print(second_class_one);
 
 # user_lists = ['张龙','赵虎','王朝','马汉','展昭'];
