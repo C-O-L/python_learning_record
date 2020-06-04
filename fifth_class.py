@@ -89,3 +89,60 @@
 # print("\n验证过的用户: ")
 # for confirmed_user in confirmed_users:
 #     print(confirmed_user)
+
+# /////////////////////////////////////////////////////////////////
+
+# #建立一空字典
+# responses = {}
+
+# #设置一个标志，指出调查是否继续
+# flag = True
+# while flag:
+#     #提示被调查者的名字和回答
+#     name = input("\n请输入姓名： ")
+#     response = input("想去哪里旅游?  ")
+
+#     #将输入结果存储到字典中
+#     responses[name] = response
+
+#     #看还有用户要被调查吗!
+#     repeat = input("还有没有用户要参加调查? (yes/no)： ")
+#     if repeat == 'no' :
+#         flag = False
+
+# #调查结束，打印
+# print("-----调查结果---")
+# for name, response in responses.items():
+#     print(name + "想去" + response + "旅游")
+
+# /////////////////////////////////////////////////////////////////
+
+# def greet_user(): 	      
+#     print("欢迎来到美丽的沙漠水城《中卫》")
+# 	print("中卫历史悠久，有两千多年的历史")
+# 	print("中卫的特色小吃很多，来了不要忘了吃点蒿子面")
+
+# /////////////////////////////////////////////////////////////////
+
+# #实参与形参实例
+
+# def describe_pet(animal_type,sex, pet_name):
+
+#     # """显示宠物的信息"""
+#     print("\n 你家的宠物的类型是：" + animal_type)
+#     print("\n 你家的宠物是公的还是母的：" + sex)
+#     print("\n 你家的宠物的名字：" + pet_name)
+
+# #位置实参
+# describe_pet ('狗','公','jk')
+
+# #关键字实参
+# describe_pet(pet_name = 'gh', animal_type = '山羊', sex = '母')
+
+# /////////////////////////////////////////////////////////////////
+
+def get_formatted_name(first_name,last_name):
+   full_name= first_name + ' ' + last_name    
+   return full_name.title() 
+   musician = get_formatted_name('jimi', 'hendrix')
+print(musician)
