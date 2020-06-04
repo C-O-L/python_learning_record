@@ -66,3 +66,26 @@
 #         print("送80元")
 #     elif level == 'quit':
 #         active = False
+
+# /////////////////////////////////////////////////////////////////
+
+# #创建一个待验证的列表
+# #创建一个用来存储验证用户的列表
+
+# unconfirmed_users = ['zhangsna','lisi','wangmazi']
+# confirmed_users = []
+
+# #验证用户
+# #把每个验证过的用户移动到已验证用户列表
+
+# while unconfirmed_users:
+#     current_user = unconfirmed_users.pop()
+#     print("您已经被验证了" + current_user)
+
+#     #将验证过的用户移动到confirmed_users表中
+#     confirmed_users.append(current_user)
+
+# #显示所有已验证用户
+# print("\n验证过的用户: ")
+# for confirmed_user in confirmed_users:
+#     print(confirmed_user)
